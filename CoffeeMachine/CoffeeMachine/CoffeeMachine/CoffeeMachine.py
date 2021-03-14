@@ -173,7 +173,7 @@ def main():
             resources["water"]-=MENU["cappuccino"]["ingredients"]["water"]
             resources["milk"]-=MENU["cappuccino"]["ingredients"]["milk"]
             resources["coffee"]-=MENU["cappuccino"]["ingredients"]["coffee"]
-            print("Here is your cappuccino. Enjoy!")
+            print("Here is your cappuccino. Enjoy! ☕")
             working(money)
         elif transaction==2:
             resources["water"]-=MENU["latte"]["ingredients"]["water"]
@@ -184,7 +184,7 @@ def main():
         elif transaction==3:
             resources["water"]-=MENU["espresso"]["ingredients"]["water"]
             resources["coffee"]-=MENU["espresso"]["ingredients"]["coffee"]
-            print("Here is your espresso. Enjoy!")
+            print("Here is your espresso. Enjoy!✔")
             working(money)
 
     working(money)
